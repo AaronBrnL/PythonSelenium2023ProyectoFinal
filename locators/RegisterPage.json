@@ -1,0 +1,53 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/register",
+  "locators": {
+    "first_name": {
+      "by": "XPATH",
+      "value": "//input[@id='input-firstname']"
+    },
+    "last_name": {
+      "by": "XPATH",
+      "value": "//input[@id='input-lastname']"
+    },
+    "email": {
+      "by": "XPATH",
+      "value": "//input[@id='input-email']"
+    },
+    "telephone": {
+      "by": "XPATH",
+      "value": "//input[@id='input-telephone']"
+    },
+    "password": {
+      "by": "XPATH",
+      "value": "//input[@id='input-password']"
+    },
+    "password_confirm": {
+      "by": "XPATH",
+      "value": "//input[@id='input-confirm']"
+    },
+    "suscribe_yes": {
+      "by": "XPATH",
+      "value": "//label[normalize-space()='Yes']"
+    },
+    "suscribe_no": {
+      "by": "XPATH",
+      "value": "//input[@value='0']"
+    },
+    "privacy_policy": {
+      "by": "XPATH",
+      "value": "//input[@name='agree']"
+    },
+    "btn_continue": {
+      "by": "XPATH",
+      "value": "//input[@value='Continue']"
+    },
+    "account_created": {
+      "by": "XPATH",
+      "value": "//h1[normalize-space()='Your Account Has Been Created!']"
+    },
+    "account_created_btn_continue": {
+      "by": "XPATH",
+      "value": "//a[normalize-space()='Continue']"
+    }
+  }
+}
