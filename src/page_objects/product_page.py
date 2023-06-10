@@ -19,6 +19,5 @@ class ProductPage(BasePage):
         self.element("iphone_product").wait_clickable().click()
         self.element("btn_add_Cart").wait_clickable().click()
         self.element("cart").wait_clickable().click()
-        self.element("btn_check").wait_clickable().click()
 
         time.sleep(5)
