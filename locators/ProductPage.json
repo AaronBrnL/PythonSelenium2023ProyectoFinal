@@ -1,0 +1,30 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=product/search&search=iphone",
+  "locators": {
+    "input_search": {
+      "by": "XPATH",
+      "value": "//input[@id='input-search']"
+    },
+    "iphone_product": {
+      "by": "XPATH",
+      "value": "//img[@title='iPhone']"
+    },
+    "btn_add_Cart": {
+      "by": "XPATH",
+      "value": "//button[@id='button-cart']"
+    },
+    "cart": {
+      "by": "XPATH",
+      "value": "//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']"
+    },
+    "btn_search": {
+      "by": "XPATH",
+      "value": "//input[@id='button-search']"
+    },
+    "btn_check": {
+      "by": "XPATH",
+      "value": "//strong[normalize-space()='Checkout']"
+    }
+  }
+}
+

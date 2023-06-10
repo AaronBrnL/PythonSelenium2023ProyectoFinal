@@ -7,6 +7,7 @@ def test_invalid_login(web_drivers):
     login_page = LoginPage(*web_drivers)
     login_page.open()
     login_page.login("user@qaminds.com", "invalid_password")
+
     actual_msg = login_page.get_warning_message()
     assert expected_msg == actual_msg, f"Warning message should {expected_msg}"
 
