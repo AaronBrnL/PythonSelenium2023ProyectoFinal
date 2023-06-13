@@ -13,11 +13,4 @@ def create_driver(config: ConfigData):
     """
     logging.info("Initialize chrome driver")
     chrome_service = Service(config.drivers_path)
-    chrome_options = webdriver.ChromeOptions()
-    if config.incognito:
-        logging.info("Enabled incognito mode")
-        chrome_options.add_argument("--incognito")
-    if config.headless:
-        logging.info("Enabled headless mode")
-        chrome_options.add_argument("--headless")
-    return webdriver.Chrome(service=chrome_service, chrome_options=chrome_options)
+    return webdriver.Chrome(service=chrome_service)

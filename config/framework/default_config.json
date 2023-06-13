@@ -1,14 +1,6 @@
 {
   "browser_name": "chrome",
   "implicit_wait": 10,
-  "drivers_path": "/Users/aaronbrn/Documents/PythonSelenium2023/drivers/chromedriver",
-  "maximize": true,
-  "incognito": true,
-  "headless": {
-    "enabled": false,
-    "resolution": {
-      "width": 800,
-      "height": 600
-    }
-  }
+  "drivers_path": "/Users/aaronbrn/Documents/PythonSelenium2023/drivers/chromedriver114",
+  "maximize": true
 }
